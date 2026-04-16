@@ -1,0 +1,12 @@
+api
+api/v1
+api/v2
+graphql
+swagger
+swagger-ui
+openapi
+docs
+redoc
+actuator
+health
+metrics

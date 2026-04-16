@@ -1,0 +1,12 @@
+login
+signin
+signup
+auth
+oauth
+forgot-password
+reset-password
+account
+user
+users
+session
+sessions

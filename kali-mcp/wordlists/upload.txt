@@ -1,0 +1,10 @@
+upload
+uploads
+file-upload
+files
+image-upload
+attachments
+media
+documents
+avatar
+profile-upload

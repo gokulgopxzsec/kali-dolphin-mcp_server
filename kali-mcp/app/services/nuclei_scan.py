@@ -33,14 +33,22 @@ def run_nuclei_on_hosts(live_hosts):
     )
 
     command = [
-        NUCLEI_PATH,
-        "-l",
-        temp_hosts_file,
-        "-severity",
-        "info,low,medium,high,critical",
-        "-o",
-        output_file
-    ]
+    NUCLEI_PATH,
+    "-l",
+    temp_hosts_file,
+    "-severity",
+    "info,low,medium,high,critical",
+    "-rate-limit",
+    "20",
+    "-timeout",
+    "10",
+    "-retries",
+    "2",
+    "-c",
+    "10",
+    "-o",
+    output_file
+]
 
     try:
         result = subprocess.run(

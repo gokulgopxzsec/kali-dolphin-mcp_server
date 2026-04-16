@@ -1,0 +1,11 @@
+admin
+administrator
+dashboard
+controlpanel
+cpanel
+manage
+management
+console
+staff
+backend
+superadmin
