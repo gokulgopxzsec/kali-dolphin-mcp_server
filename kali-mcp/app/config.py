@@ -17,3 +17,8 @@ NUCLEI_RESULTS_DIR = "nuclei_results"
 FFUF_RESULTS_DIR = "ffuf_results"
 JS_RESULTS_DIR = "js_results"
 REPORTS_DIR = "app/reports"
+import os
+
+OLLAMA_HOST = os.getenv("OLLAMA_HOST", "http://localhost:11434")
+DEFAULT_MODEL = os.getenv("DEFAULT_MODEL", "dolphin-llama3:8b")
+EMBED_MODEL = os.getenv("EMBED_MODEL", "nomic-embed-text")
