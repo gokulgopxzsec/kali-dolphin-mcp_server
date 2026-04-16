@@ -1,0 +1,21 @@
+[waf-detect:nginxgeneric] [http] [info] https://jivochat.com
+[tls-version] [ssl] [info] jivochat.com:443 ["tls12"]
+[tls-version] [ssl] [info] jivochat.com:443 ["tls13"]
+[tech-detect:nginx] [http] [info] https://jivochat.com
+[rdap-whois:lastChangeDate] [http] [info] https://rdap.verisign.com/com/v1/domain/jivochat.com ["2025-11-23T03:04:34Z"]
+[rdap-whois:expirationDate] [http] [info] https://rdap.verisign.com/com/v1/domain/jivochat.com ["2027-06-22T14:50:14Z"]
+[rdap-whois:nameServers] [http] [info] https://rdap.verisign.com/com/v1/domain/jivochat.com ["NS2.EDGEDNS.WORLD"]
+[rdap-whois:secureDNS] [http] [info] https://rdap.verisign.com/com/v1/domain/jivochat.com ["false"]
+[rdap-whois:status] [http] [info] https://rdap.verisign.com/com/v1/domain/jivochat.com ["client transfer prohibited"]
+[rdap-whois:registrationDate] [http] [info] https://rdap.verisign.com/com/v1/domain/jivochat.com ["2011-06-22T14:50:14Z"]
+[form-detection] [http] [info] https://www.jivochat.com/
+[dkim-record-detect] [dns] [info] google._domainkey.jivochat.com ["v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt+0P3Va7VQW3mO1E5BTZC39wDfsLPQeAyaRMEOT9XgJFnNUj+Ne4LAtvU3NiOpdH9WYWwdBQ9pGH9KAsgEipKWVs886ZGx0p6lqGPFYQyaf+en+wQnnM3PwaOlwxL1vjCBIu2Ta8TZL/21gap5WDdoT17p25RPaQCLBLyhAMYMJUU57eU7u8JFWRByxpvaKLD" "sChVQgyWXlrtH3t1C0ub2+QcBgqLMf5Ipb/9IZQe0GM6ns9+EfT8utMQU7oBmLmDTsholYOm6/B+AbpF8ITleEIX8HIzCupeq++aGCTE05hS6DmvFzZAx91ZniebhUeWOpHVMcIassaiqYd/cmALwIDAQAB""]
+[nameserver-fingerprint] [dns] [info] jivochat.com ["ns2.edgedns.world.","ns1.edgedns.ru."]
+[mx-fingerprint] [dns] [info] jivochat.com ["20 alt1.aspmx.l.google.com.","10 aspmx.l.google.com.","20 alt2.aspmx.l.google.com.","30 aspmx2.googlemail.com.","30 aspmx3.googlemail.com."]
+[mx-service-detector:Google Apps] [dns] [info] jivochat.com
+[caa-fingerprint] [dns] [info] jivochat.com
+[spf-record-detect] [dns] [info] jivochat.com ["v=spf1 include:_spf.google.com include:customeriomail.com include:spf.unisender.com ~all""]
+[txt-fingerprint] [dns] [info] jivochat.com [""v=spf1 include:_spf.google.com include:customeriomail.com include:spf.unisender.com ~all"",""unisender-go-validate-hash=92d0db16a95f05c2aead6e325a9e4290"",""google-site-verification=sa8WyHLNPy7rNe2CX2-0G3WwfL0CZpWze74W6xX6a74""]
+[dmarc-detect] [dns] [info] _dmarc.jivochat.com [""v=DMARC1; p=reject; sp=reject; pct=100; ri=14400; rua=mailto:mail@jivosite.com; fo=1; ruf=mailto:mail@jivosite.com""]
+[ssl-issuer] [ssl] [info] jivochat.com:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] jivochat.com:443 ["jivochat.com"]
