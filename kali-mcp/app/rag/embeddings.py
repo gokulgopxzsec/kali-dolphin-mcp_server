@@ -1,6 +1,6 @@
 import ollama
 import os
-
+#sentence-transformers/all-MiniLM-L6-v2
 EMBED_MODEL = os.getenv("EMBED_MODEL", "nomic-embed-text")
 
 
